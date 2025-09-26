@@ -1,0 +1,48 @@
+/* Color Theme Swatches in Hex */
+.exposed-shivali-1-hex { color: #1B8EF2; }
+.exposed-shivali-2-hex { color: #27A4F2; }
+.exposed-shivali-3-hex { color: #7CA653; }
+.exposed-shivali-4-hex { color: #748C5D; }
+.exposed-shivali-5-hex { color: #D99B96; }
+
+/* Color Theme Swatches in RGBA */
+.exposed-shivali-1-rgba { color: rgba(26, 141, 242, 1); }
+.exposed-shivali-2-rgba { color: rgba(38, 164, 242, 1); }
+.exposed-shivali-3-rgba { color: rgba(124, 165, 82, 1); }
+.exposed-shivali-4-rgba { color: rgba(116, 140, 92, 1); }
+.exposed-shivali-5-rgba { color: rgba(216, 155, 149, 1); }
+
+/* Color Theme Swatches in HSLA */
+.exposed-shivali-1-hsla { color: hsla(208, 89, 52, 1); }
+.exposed-shivali-2-hsla { color: hsla(203, 88, 55, 1); }
+.exposed-shivali-3-hsla { color: hsla(90, 33, 48, 1); }
+.exposed-shivali-4-hsla { color: hsla(90, 20, 45, 1); }
+.exposed-shivali-5-hsla { color: hsla(4, 46, 71, 1); }
+
+nav {
+background-color: #7CA653;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+nav li {
+margin-right: 20px;
+}
+nav a {
+color: white;
+text-decoration: none;
+padding: 14px 20px;
+display: block;
+}
+/* Hover effect */
+nav a:hover {
+background-color: #D99B96;
+}
+/* Active (current page) link */
+nav a.active {
+background-color: #04AA6D;  /* a green highlight */
+font-weight: bold;          /* make it stand out */
+}
